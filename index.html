@@ -3,14 +3,18 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>jQuery UI Example Page</title>
-        <link type="text/css" href="css/dovetail/reset.css" rel="stylesheet" />	
-        <link type="text/css" href="css/dovetail/960.css" rel="stylesheet" />	
-        <link type="text/css" href="css/dovetail/jquery-ui-1.8.15.custom.css" rel="stylesheet" />	
-        <link type="text/css" href="css/dovetail/jquery-ui-1.8.15.custom.extension.extensions.css" rel="stylesheet" />	
-        <link type="text/css" href="css/dovetail/structure.css" rel="stylesheet" />	
-        <link type="text/css" href="css/dovetail/style.css" rel="stylesheet" />	
-        <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui-1.8.15.custom.min.js"></script>
+
+        <link type="text/css" href="styles/bootstrap-1.1.0.css" rel="stylesheet" />	
+        <link type="text/css" href="styles/960.css" rel="stylesheet" />	
+        <link type="text/css" href="styles/structure.css" rel="stylesheet" />	
+        <link type="text/css" href="styles/style.css" rel="stylesheet" />	
+
+        <link type="text/css" href="styles/dovetail/jquery-ui-1.8.15.custom.css" rel="stylesheet" />	
+        <link type="text/css" href="styles/dovetail/jquery-ui-1.8.15.custom.extension.extensions.css" rel="stylesheet" />	
+
+
+        <script type="text/javascript" src="scripts/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery-ui-1.8.15.custom.min.js"></script>
         <script type="text/javascript">
 
             $(function(){
@@ -70,6 +74,8 @@
                 /*demo page css*/
                 body{ font: 62.5% "Trebuchet MS", sans-serif; margin: 50px;}
                 .demoHeaders { margin-top: 2em; }
+                .show-grid .column {margin-top:10px;text-align: center;height:30px;background:#EEE; -webkit-border-radius: 3px; border-radius:3px; line-height:30px;}
+                .show-grid:hover .column {background:rgba(0,0,0, 0.25);; -webkit-border-radius: 3px; border-radius:3px; line-height:30px;}
                 #dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
                 #dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
                 ul#icons {margin: 0; padding: 0;}
@@ -78,31 +84,29 @@
             </style>	
     </head>
     <body>
-    <div class="underline">
-        <a href="/">
-            <div class="logo f-left">
-                <h1>                            960
-                    Dovetail Software
-                </h1>
-            </div>
-        </a>
-        <div class="txt-r f-right">
-            <ul class="navigation">
-                <li class="active"><a href="#">Cases</a> </li>
-                <li><a href="#">Solutions</a> </li>
-                <li><a href="#">Contacts</a> </li>
+    <div class="topbar">
+      <div class="fill">
+        <div class="container fixed">
+          <h3><a href="#">Agent5</a></h3>
+          <ul>
+            <li class="active"><a href="#">Cases</a></li>
+            <li><a href="#about">Solutions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav secondary-nav">
+            
                 <li>
                     <form method="GET" class="searchform" accept="/search">
                     <input type="text" value="Search" name="query" class="searchfield bg-color2 color5"
                         onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
-                    <input type="image" class="submit btn" name="submit" src="css/dovetail/images/search-btn.png"
+                    <input type="image" class="submit" name="submit" src="images/search-btn.png"
                         alt="Go" />
                     </form>
                 </li>
-            </ul>
+                
+          </ul>
         </div>
-        <div class="clear">
-        </div>
+      </div>
     </div>
     <div class="account-wrapper f-right">
         <ul class="account"><li>Welcome annie</li><li><a href='#logout'>Logout</a></li></ul>
@@ -125,6 +129,56 @@
             </p>
         </div>
         <div class="clear">
+        </div>
+        <div id="grid-system" class="show-grid">
+
+            <h2 class="hd underline font-league">Grid System</h2>
+
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+            <div class="grid_1 column">1</div>
+
+            <div class="clear">
+            </div>
+
+            <div class="grid_2 column">2</div>
+            <div class="grid_2 column">2</div>
+            <div class="grid_2 column">2</div>
+            <div class="grid_2 column">2</div>
+            <div class="grid_2 column">2</div>
+            <div class="grid_2 column">2</div>
+            <div class="clear">
+            </div>
+            <div class="grid_3 column">3</div>
+            <div class="grid_3 column">3</div>
+            <div class="grid_3 column">3</div>
+            <div class="grid_3 column">3</div>
+            <div class="clear">
+            </div>
+            <div class="grid_4 column">4</div>
+            <div class="grid_4 column">4</div>
+            <div class="grid_4 column">4</div>
+            <div class="clear">
+            </div>
+            <div class="grid_5 column">5</div>
+            <div class="grid_2 column">2</div>
+            <div class="grid_5 column">5</div>
+            <div class="clear">
+            </div>
+            <div class="grid_6 column">6</div>
+            <div class="grid_6 column">6</div>
+            <div class="clear">
+            </div>
+
         </div>
 
             <div class="grid_6 alpha omega">
@@ -159,6 +213,166 @@
                                     H6 Header</h6>
                             </li>
                         </ul>
+        </div>
+        <div class="grid_6">
+            <div class="mod">
+                <div class="inner">
+                    <div class="hd underline font-league">
+                        <h2>
+                            Basic Site Info</h2>
+                    </div>
+                    <div class="bd">
+                        <p>
+                            An unvisited link is this <span><a href="#">color.</a></span> Links are always <b>bold.</b><br />
+                            Default paragraph text is #666 14pt. with 22 line height.
+                            <br />
+                            Default font: Helvetica, Arial, sans-serif. <span>@font-face League Gothic</span>
+                            via @font-face.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <div class="grid_6">
+            <div class="mod">
+                <div class="inner">
+                    <div class="hd underline font-league">
+                        <h2>
+                            Tables</h2>
+                    </div>
+                    <div class="bd">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        Column A
+                                    </td>
+                                    <td>
+                                        Column B
+                                    </td>
+                                    <td>
+                                        Column C
+                                    </td>
+                                    <td>
+                                        Column D
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Column A
+                                </td>
+                                <td>
+                                    Column B
+                                </td>
+                                <td>
+                                    Column C
+                                </td>
+                                <td>
+                                    Column D
+                                </td>
+                            </tr>
+                            <tr class="odd">
+                                <td>
+                                    Column A
+                                </td>
+                                <td>
+                                    <a href="#">A Link in a table</a>
+                                </td>
+                                <td>
+                                    Column C
+                                </td>
+                                <td>
+                                    Column D
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Column A
+                                </td>
+                                <td>
+                                    Column B
+                                </td>
+                                <td>
+                                    Column C
+                                </td>
+                                <td>
+                                    Column D
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid_6">
+            <div class="mod">
+                <div class="inner">
+                    <div class="hd underline font-league">
+                        <h2>
+                            Forms</h2>
+                    </div>
+                    <div class="bd">
+                        <p>
+                            <form method="GET" class="searchform" accept="/search">
+                            <input type="text" value="Search" name="s" class="searchfield bg-color2 color5" onfocus="if (this.value == 'Search') {this.value = '';}"
+                                onblur="if (this.value == '') {this.value = 'Search';}">
+                            <input type="image" class="submit" name="submit" src="images/search-btn.png"
+                                alt="Go">
+                            </form>
+                        </p>
+                        <p>
+                            <form method="GET" class="globalsearchform searchform" accept="/search">
+                            <input type="text" value="" name="query" class="searchfield bg-color2 " />
+                            <input type="image" class="submit btn" name="submit" src="images/search-btn.png"
+                                alt="Go" />
+                            </form>
+                        </p>
+                        <p>
+                            <label class="form-label" for="input1">
+                                Text Field</label>
+                            <input id="input1" class="form-text bg-color2 color2" type="text" />
+                        </p>
+                        <p>
+                            <label class="form-label" for="input2">
+                                Text Area</label>
+                            <textarea id="input2" class="form-textarea autogrow bg-color2 color2" type="text">Remove the 'autogrow' class to make sure the textarea stays the same height</textarea>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid_6">
+            <div class="mod">
+                <div class="inner">
+                    <div class="hd underline font-league">
+                        <h2>
+                            Data Dictionaries</h2>
+                    </div>
+                    <div class="bd">
+                        <dl>
+                            <dt>Phone</dt>
+                            <dd>
+                                <span class="color2">877-510-5466</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>Email</dt>
+                            <dd>
+                                <span class="color2">fired@company.com</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>Roles</dt>
+                            <dd class="color2">
+                                <ul>
+                                    <li class="active">Employee </li>
+                                    <li>Administrator </li>
+                                    <li>Consultant </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
         </div>
             
             </div>

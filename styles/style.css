@@ -4,32 +4,15 @@
 /* Default Styles */
 body { font-size: 0.875em; margin:0; padding:0; /*overflow-x: hidden;*/ font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-.patt {background: url(../images/stc_patt.jpg) repeat-x; height: 20px;}
 
 .logo {background: url(../images/dt-logo-trans-40.png) no-repeat;  text-indent: -7777777px;margin-left:20px;}
-.logo-large {height: 100px; background: url(../images/large_logo.png) no-repeat;  text-indent: -7777777px;margin-left:20px;}
+.logo-large {width:277px; height: 100px; background: url(../images/large_logo.png) no-repeat;  text-indent: -7777777px;margin:0 auto;}
 
 
 .underline {border-bottom: 1px  solid #666; margin: 10px 0; }
 .dotted {border-bottom: 1px  dotted #666; margin: 10px 0; }
 .no-margin-bottom{margin-bottom: 0px;}
 
-
-/* Color Styles */
-.bg-color0 {background: #fff;} /* Default white. Body bg and odd table rows */
-.bg-color1 {background: #666;} /* Dark Gray */
-.bg-color2 {background: #efefef;} /* Light gray. Side bar and even table rows */
-.bg-color3 {background: url(../images/stc_patt.jpg) repeat-x; height: 20px;} /* Header and footer pattern. */
-.bg-color4 {background: #333;} /* Very Dark gray. Used in the mod block .work-box */
-
-/* Text Styles */
-.color0{color: #fff;} /* white */
-.color1, body, .blog-post {color: #666;} /* default gray, default body text color */
-.color2 {color: #333;} /* dark gray, used on headers */
-.color3, a, .quote, .navigation li a {color: #0473b5;} /* Dark Blue, used for links, decritive quotes, and default footer color */
-.color4, a:visited, .navigation li .active  a {color: #64a9d2;} /* Light blue, used for link hovers and link visted states */
-.color5 {color: #aaa;} /* light gray, used inside of form fields to denote editable text to users. */
-.color6, a:hover, .navigation li a:hover {color: #00aeef;} /* Cyan - used for link hovers */
 
 .bold {font-weight: bold;}
 .capitalize {text-transform:capitalize;}
@@ -203,49 +186,6 @@ a:hover, .navigation li a:hover {text-decoration: underline;}
 .navigation li .active  a, a.active {text-decoration: underline;}
 
 /* Tables */
-
-table, thead, td, tr {border: 1px solid #aaa;}
-
-thead {background-color: #666; color: #fff;}
-
-.odd {background-color: #efefef; }
-
- /* Lists */
-
-	 .ul, ol {list-style: none;}
-	 ul, ol {margin: 5px 0; display: block;}
-	 li {padding: 5px; }
-
-      ul.list-shadow > li   
-      {
-          -moz-box-shadow: 1px 1px 6px #888; 
-          -webkit-box-shadow: 1px 1px 6px #888; 
-          box-shadow: 1px 1px 6px #888; 
-      }
-     
-     .list-basic > li:first-child 
-     {
-         
-        -moz-border-radius: 4px 4px 0 0; 
-        -webkit-border-radius: 4px 4px 0 0; 
-        border-radius: 4px 4px 0 0; 
-          
-          
-        -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
-     }
-       .list-basic > li:last-child 
-     {
-         
-        -moz-border-radius: 0 0 4px 4px; 
-        -webkit-border-radius: 0 0 4px 4px; 
-        border-radius: 0 0 4px 4px; 
-          
-          
-        -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
-     }
-	 .list-basic > li:nth-child(odd) {background-color:#efefef;}
-
-	 .list-number {list-style: decimal; list-style-position: inside;}
 
 	
      .search-results li {padding: 0 5px; margin: 0 5px;}
