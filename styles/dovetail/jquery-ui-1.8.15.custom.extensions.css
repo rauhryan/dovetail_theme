@@ -48,7 +48,12 @@
     border:0;
     border-top:1px solid #BFBFBF;
 }
-
+.ui-accordion .ui-accordion-header{
+    margin-top:0;
+}
+.ui-accordion .ui-accordion-content{
+    margin-bottom:1px;
+}
 .ui-accordion .ui-accordion-header, .ui-accordion .ui-widget-content {
     border:0;
     border-bottom: 1px solid #BFBFBF;
