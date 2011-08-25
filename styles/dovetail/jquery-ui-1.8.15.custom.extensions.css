@@ -1,0 +1,68 @@
+/* Tabs */
+.ui-tabs.ui-widget-content, .ui-tabs .ui-tabs-nav, .ui-tabs.ui-widget-header{
+    border:0;
+    border-bottom: 1px solid #BFBFBF;
+    background:none;
+}
+.ui-tabs.ui-corner-all, .ui-tabs.ui-widget-header.ui-corner-all, .ui-tabs-nav{
+     -moz-border-radius: 0; 
+  -webkit-border-radius: 0; 
+          border-radius: 0; 
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+
+.ui-tabs .ui-tabs-nav{
+    margin: 0 0 20px;
+    padding:0;
+}
+.ui-tabs-panel {margin:0 0 20px;}
+.ui-tabs .ui-tabs-nav .ui-state-default.ui-corner-top:not(.ui-state-active) {
+    border:0;
+    background:none;
+}
+.ui-tabs .ui-tabs-nav li a {
+    margin-bottom:-1px;
+    line-height: 35px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #0069D6;
+}
+.ui-tabs .ui-tabs-nav li a:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
+   text-decoration: underline; 
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{
+    text-decoration: none;
+    color: #555;
+    cursor:pointer;
+}
+
+
+
+/* Accordian */
+.ui-accordion {
+    border:0;
+    border-top:1px solid #BFBFBF;
+}
+
+.ui-accordion .ui-accordion-header, .ui-accordion .ui-widget-content {
+    border:0;
+    border-bottom: 1px solid #BFBFBF;
+    background:none;
+    padding:10px 10px 9px;
+}
+.ui-accordion .ui-accordion-header:hover {
+    background:#DDD;
+}
+.ui-accordion .ui-accordion-header.ui-state-active:hover {
+    background:none;
+}
+.ui-accordion .ui-accordion-header.ui-state-active {
+    border-bottom:0;
+}
+
+.ui-accordion .ui-accordion-header.ui-corner-all, .ui-accordion .ui-widget-content{
+     -moz-border-radius: 0; 
+  -webkit-border-radius: 0; 
+          border-radius: 0; 
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
