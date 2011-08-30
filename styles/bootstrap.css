@@ -1930,6 +1930,16 @@ footer {
 .popover .content p, .popover .content ul, .popover .content ol {
   margin-bottom: 0;
 }
+#icons .settings {
+  background: url(../images/sweet-icons-settings--white-32.png) left top no-repeat;
+}
+.icon-settings {
+  padding: 5px;
+  text-indent: -9999em;
+  width: 32px;
+  background: url(../images/sweet-icons-settings--white-32.png) left top no-repeat;
+  background-position: -244px -20px;
+}
 /* Fonts */h3.quote {
   font-family: "SansationRegular";
   font-weight: normal;
