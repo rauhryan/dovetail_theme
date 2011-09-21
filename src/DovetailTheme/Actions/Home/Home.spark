@@ -57,9 +57,8 @@
 
 <content:secondary>
     I'm content that goes in the secondary
-
 </content:secondary>
 
-<!-- anything outside of a content area goes in "view" -->
 
+<!-- anything outside of a content area goes in "view" -->
 hello main content
