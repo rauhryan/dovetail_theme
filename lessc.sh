@@ -1,4 +1,4 @@
 #!/bin/bash
 
                                                        
-dotless/dotless.Compiler.exe -w styles/lib/bootstrap.less styles/bootstrap.css
+tools/dotless/dotless.Compiler.exe -w dovetail.less dovetail.css
