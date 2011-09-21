@@ -1,0 +1,34 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fluid.spark" caret="0" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Form.spark" caret="43" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fixed.spark" caret="19" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Baseline.spark" caret="56" fromTop="1" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Baseline.spark" caret="56" fromTop="1" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fluid.spark" caret="19" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fixed.spark" caret="19" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Form.spark" caret="43" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

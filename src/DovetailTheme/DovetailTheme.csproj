@@ -89,12 +89,7 @@
   <ItemGroup>
     <None Include="Shared\Baseline.spark" />
     <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
+    <None Include="Shared\Form.spark" />
     <None Include="Shared\Fluid.spark" />
     <None Include="Shared\Fixed.spark" />
   </ItemGroup>
