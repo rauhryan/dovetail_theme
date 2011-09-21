@@ -88,12 +88,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Shared\Baseline.spark" />
+    <None Include="Actions\Home\Home.spark" />
     <Content Include="Web.config" />
     <None Include="Shared\Form.spark" />
+    <None Include="Shared\Application.spark" />
+    <None Include="Shared\Master.spark" />
     <None Include="Shared\Fluid.spark" />
     <None Include="Shared\Fixed.spark" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\Home\HomeAction.cs" />
     <Compile Include="App_Start\FubuMVC.cs" />
     <Compile Include="ConfigureFubuMVC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,7 +106,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fubu-content\fubumvc-diagnostics.zip" />
+    <None Include="fubu-content\fubumvc-diagnostics.zip.off" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fubu-content\basic-getting-started.zip" />

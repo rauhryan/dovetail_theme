@@ -1,0 +1,89 @@
+
+
+/* Button Styles */
+input[type="button"],.submit{cursor:pointer;}
+.button, a.button { 
+	display: inline-block; 
+	background: #fff; 
+	border: 1px solid #ddd; 
+	cursor: pointer; 
+	overflow: hidden; 
+	white-space: nowrap;
+	color: #666; 
+	font-size: 12px; 
+	font-weight: 600; 
+	line-height: 1em; 
+	text-align: center; 
+	vertical-align: middle;
+	-moz-border-radius: 3px; /* FF1-3.6 */
+	-webkit-border-radius: 3px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	border-radius: 3px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+	/* useful if you don't want a bg color from leaking outside the border: */        
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+
+	text-decoration:none !important; 
+}
+
+.button span,
+.button input {
+	display: block;
+		 *display:inline; 
+		 padding: .4em 1em; 
+		 background-color: #dddddd; 
+		 text-shadow: -1px 1px 0 rgba(255,255,255,.7);
+		 margin: 1px; 
+		 -moz-border-radius: 3px; /* FF1-3.6 */
+		 -webkit-border-radius: 3px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+		 border-radius: 3px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+		 /* useful if you don't want a bg color from leaking outside the border: */        
+		 -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+
+		 *white-space:nowrap; 
+		 text-transform: uppercase; 
+		 border:none;
+		 /*grad*/background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dddddd), to(#aaaaaa));
+		 background-image: -moz-linear-gradient(100% 100% 90deg,#aaaaaa, #dddddd);  
+}
+.button input { padding: .325em .5em .27em; vertical-align: baseline; font-size: 1em; font-weight: bold; color: #666; }
+.button input:hover{cursor:pointer;}
+div.button:hover,div.button:focus,button.button:hover, a.button:hover, button.button:focus,a.button:focus{ 
+    filter:alpha(opacity=80);
+    -moz-opacity:0.80;
+    -khtml-opacity: 0.80;
+    opacity: 0.80;
+    cursor:pointer; 
+ }
+ .button input[type=button][disabled],
+ .button input[type=submit][disabled]
+ {
+ 	background-color:#666; 
+ 	background-image:none; 
+ 	cursor:not-allowed;
+ 	border:1px solid #444;
+ 	color:#FFFFFF;
+ 	text-shadow:none;
+ }
+
+.button-confirm span, .button-confirm input {
+	color: #FFF;
+	background-color:#75B469;  
+	text-shadow: -1px 1px 0 rgba(0, 0, 0, .3);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#75b469), to(#479737));
+	background-image: -moz-linear-gradient(100% 100% 90deg,#479737, #75b469);
+}  
+
+.button-cancel span {
+	color: #FFF;
+	background-color:#BD5252;  
+	text-shadow: -1px 1px 0 rgba(0, 0, 0, .3);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BD5252), to(#BD5252));
+	background-image: -moz-linear-gradient(100% 100% 90deg,#BD5252, #BD5252);
+
+}
+
+/* Forms */
+.form-text:focus, .form-textarea:focus, .searchfield:focus {
+	border: 2px solid #64a9d2;
+}

@@ -1,3 +1,6 @@
 _*
 *.suo
 *.csproj.user
+fubu-content/
+bin
+obj
