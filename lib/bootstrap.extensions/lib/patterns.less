@@ -11,8 +11,6 @@
 // TOPBAR
 // ------
 .btn {
-    text-transform:uppercase;
-    font-weight: bold;
     .transition(0s linear all);
     #gradient > .vertical(#ffffff, darken(#ffffff,10%)); // Don't use .gradientbar() here since it does a three-color gradient
     padding: 7px 12px;
@@ -36,4 +34,22 @@
     &.large {
         .border-radius(4px);
     }
+}
+.btn {
+
+  // Danger and error appear as red
+  &.danger,
+  &.error {
+    .gradientBar(@red, darken(@red,3%));
+  }
+  // Success appears as green
+  &.success {
+    .gradientBar(#62c462, #57a957);
+    .gradientBar(@green, darken(@green,3%));
+  }
+  // Info appears as a neutral blue
+  &.info {
+    .gradientBar(#5bc0de, #339bb9);
+  }
+
 }
