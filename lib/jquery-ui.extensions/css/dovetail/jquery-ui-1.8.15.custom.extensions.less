@@ -20,10 +20,7 @@
     background:none;
 }
 .ui-tabs.ui-corner-all, .ui-tabs.ui-widget-header.ui-corner-all, .ui-tabs-nav{
-     -moz-border-radius: 0; 
-  -webkit-border-radius: 0; 
-          border-radius: 0; 
-  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+    .border-radius(0px); 
 }
 
 .ui-tabs .ui-tabs-nav{
@@ -45,9 +42,7 @@
 }
 .ui-tabs .ui-tabs-nav li a:hover {
     background:#E6E6E6;
-    -moz-border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    border-radius: 4px 4px 0 0;
+    .border-radius(4px 4px 0 0);
 }
 .ui-tabs .ui-tabs-nav li a:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
    text-decoration: underline; 
@@ -97,9 +92,7 @@
 
 /* Modal Window */
 .ui-dialog {
-     -moz-box-shadow: 2px 2px 4px #666; 
-  -webkit-box-shadow: 2px 2px 4px #666; 
-          box-shadow: 2px 2px 4px #666; 
+    .box-shadow(2px 2px 4px #666);
 }
 .ui-dialog .ui-dialog-titlebar {
     background: none;
@@ -122,18 +115,17 @@
     background:none;
     color: #000;
     text-shadow: 0 1px 1px rgba(255,255,255,0.5);
-    padding: 0px 14px;
-    font-size: 1.4em;
-    font-weight:bold;
+    padding: 7px 12px;
+    font-size: @basefont;
+    .border-radius(2px);
+    .transition(0s linear all);
+    #gradient > .vertical(#ffffff, darken(#ffffff,10%));
 
-  background-color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#DDDDDD)); 
-  background-image: -webkit-linear-gradient(top, #ffffff, #DDDDDD); 
-  background-image:    -moz-linear-gradient(top, #ffffff, #DDDDDD); 
-  background-image:     -ms-linear-gradient(top, #ffffff, #DDDDDD); 
-  background-image:      -o-linear-gradient(top, #ffffff, #DDDDDD); 
-  background-image:         linear-gradient(top, #ffffff, #DDDDDD);
-            filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#DDDDDD');" 
+    .ui-button-text{
+       padding: 0;
+       line-height: normal;
+
+    }
 }
  .ui-dialog .ui-dialog-buttonset .ui-button:hover {
   background:#DDD;
@@ -141,11 +133,9 @@
 
 .ui-dialog .ui-dialog-buttonset .ui-button:first-child {
     background:none;
-    background: #2a94ef;
+    .gradientBar(@blue, darken(@blue,5%));
     color: #fff;
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-    padding: 0px 14px;
-    font-size: 1.4em;
 }
 
 .ui-dialog .ui-dialog-buttonset .ui-button:first-child:hover {
