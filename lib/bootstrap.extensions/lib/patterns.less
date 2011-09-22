@@ -10,3 +10,30 @@
 
 // TOPBAR
 // ------
+.btn {
+    text-transform:uppercase;
+    font-weight: bold;
+    .transition(0s linear all);
+    #gradient > .vertical(#ffffff, darken(#ffffff,10%)); // Don't use .gradientbar() here since it does a three-color gradient
+    padding: 7px 12px;
+    .border-radius(2px);
+
+    &.disabled:hover, &[disabled]:hover {
+        border: 1px solid #ccc;
+        border-bottom: 1px solid #bbb;
+    }
+    &:hover{
+        border: 1px solid #ccc - #333;
+        border-bottom: 1px solid #ccc - #444;
+    }
+    &.primary {
+        .gradientBar(@blue, darken(@blue,5%));
+    }
+    &.primary:hover{
+        border: 1px solid darken(@blue,20%);
+        border-bottom: 1px solid darken(@blue,30%);
+    }
+    &.large {
+        .border-radius(4px);
+    }
+}
