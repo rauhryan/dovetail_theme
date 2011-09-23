@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="~/content/styles/bootstrap.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="~/content/styles/dovetail/jquery-ui-1.8.15.custom.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="~/content/styles/dovetail/jquery-ui-1.8.15.custom.extensions.css" type="text/css" media="screen"/>
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script src="~/content/scripts/jquery-ui-1.8.15.custom.min.js"></script>
 	<script src="~/content/scripts/jquery.ui.ajax.dialog.js"></script>
@@ -23,6 +24,8 @@
 	<script src="~/content/scripts/jquery.metadata.js"></script>
 	<script src="~/content/scripts/jquery.smart_autocomplete.js"></script>
 	<script src="~/content/scripts/dovetail.autocomplete.js"></script>
+	<script src="~/content/scripts/dovetail.notification.js"></script>
+
     <script type="text/javascript">
         /* HtmlTags uses this syntax for Metadata */
         if (jQuery.metadata) {
@@ -40,8 +43,18 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+
           </ul>
          
+		  <ul class="nav secondary-nav">
+			<li><a href=""><div id="notification">0</div></a></li>
+		    <li><a href="#">Cog</a></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle">Ryan Rauh</a></li>
+				<ul class="dropdown-menu">
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</li>
+		  </ul>
         </div>
       </div>
     </div>

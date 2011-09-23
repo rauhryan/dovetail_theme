@@ -1,16 +1,44 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:Updates.spark" caret="78" fromTop="2" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:UpdatesViewAction.cs" caret="367" fromTop="12" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Home/f:HomeAction.cs" caret="0" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="300" fromTop="9" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Home/f:Home.spark" caret="0" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Form.spark" caret="0" fromTop="0" />
       <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fluid.spark" caret="0" fromTop="0" />
-      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Form.spark" caret="43" fromTop="0" />
-      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fixed.spark" caret="19" fromTop="0" />
-      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Baseline.spark" caret="56" fromTop="1" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fixed.spark" caret="0" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Baseline.spark" caret="0" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Master.spark" caret="2379" fromTop="55" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Application.spark" caret="556" fromTop="25" />
     </RecentFiles>
     <RecentEdits>
       <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Baseline.spark" caret="56" fromTop="1" />
       <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fluid.spark" caret="19" fromTop="0" />
       <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Fixed.spark" caret="19" fromTop="0" />
       <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Form.spark" caret="43" fromTop="0" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:UpdatesViewAction.cs" caret="626" fromTop="15" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:UpdatesViewAction.cs" caret="528" fromTop="21" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:UpdatesViewAction.cs" caret="378" fromTop="15" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:UpdatesViewAction.cs" caret="330" fromTop="10" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Actions/d:Updates/f:Updates.spark" caret="78" fromTop="2" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Master.spark" caret="901" fromTop="17" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="637" fromTop="9" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="637" fromTop="4" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Master.spark" caret="1456" fromTop="26" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="637" fromTop="3" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="592" fromTop="2" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="592" fromTop="14" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="303" fromTop="9" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="106" fromTop="3" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="628" fromTop="19" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:content/d:scripts/f:dovetail.notification.js" caret="300" fromTop="9" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Master.spark" caret="2213" fromTop="50" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Master.spark" caret="2219" fromTop="51" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Master.spark" caret="2379" fromTop="55" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Application.spark" caret="728" fromTop="27" />
+      <File id="4CBF5A5B-72B5-45C8-BCEB-6E0A81795243/d:Shared/f:Application.spark" caret="556" fromTop="25" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -31,4 +59,38 @@
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="156" />
+      <Item value="class" priority="92" />
+      <Item value="UpdatesListView`0" priority="31" />
+      <Item value="UpdatesRequest`0" priority="31" />
+      <Item value="return" priority="31" />
+      <Item value="new" priority="96" />
+      <Item value="UpdatesListView" priority="28" />
+      <Item value="string" priority="31" />
+      <Item value="UpdateItem`0" priority="30" />
+      <Item value="Items" priority="31" />
+      <Item value="UpdateItem" priority="28" />
+      <Item value="Description" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="background" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="function" priority="43" />
+      <Item value="$" priority="49" />
+      <Item value="$div" priority="19" />
+      <Item value="$button" priority="19" />
+      <Item value="$window" priority="29" />
+      <Item value="event" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="append" priority="8" />
+      <Item value="attr" priority="8" />
+      <Item value="hide" priority="18" />
+      <Item value="position" priority="8" />
+      <Item value="show" priority="8" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
