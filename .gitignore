@@ -4,3 +4,4 @@ _*
 fubu-content/
 bin
 obj
+*.user
