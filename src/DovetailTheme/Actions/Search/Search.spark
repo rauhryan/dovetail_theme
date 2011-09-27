@@ -1,0 +1,21 @@
+<viewdata model="DovetailTheme.Actions.Search.SearchResultModel" />
+
+<content:secondary>
+  I'm content that goes in the secondary
+</content:secondary>
+
+<form action="#">
+  <div class="clearfix">
+    <label>Term</label>
+    <div class="input">
+
+      <input type="text" name="search" id="search-uber" />    
+    </div>
+  </div>
+  
+  <div class="actions">
+    <button class="btn primary">Search</button>
+  </div>  
+  
+</form>
+

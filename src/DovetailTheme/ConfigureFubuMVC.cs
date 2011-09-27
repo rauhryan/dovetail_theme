@@ -15,7 +15,7 @@ namespace DovetailTheme
             // All public methods from concrete classes ending in "Controller"
             // in this assembly are assumed to be action methods
             Actions
-                .IncludeType<HomeAction>()
+                .IncludeTypes(x=>x.Name.EndsWith("Action"))
                 .IncludeClassesSuffixedWithController();
 
             // Policies

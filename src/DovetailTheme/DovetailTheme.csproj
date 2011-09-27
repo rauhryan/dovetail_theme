@@ -87,6 +87,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Actions\Search\Search.spark" />
     <None Include="Actions\Updates\Updates.spark" />
     <None Include="content\styles\lib\.style.less.swo" />
     <None Include="content\styles\lib\bootstrap.less" />
@@ -132,7 +133,9 @@
     <None Include="content\type\Vollkorn-Regular-webfont.ttf" />
     <None Include="content\type\Vollkorn-Regular-webfont.woff" />
     <None Include="Shared\Baseline.spark" />
-    <None Include="Actions\Home\Home.spark" />
+    <None Include="Actions\Home\Home.spark">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="content\favicon.ico" />
     <Content Include="content\images\dt-logo-60.png" />
     <Content Include="content\images\dt-logo-trans-35.png" />
@@ -197,12 +200,15 @@
     <Content Include="content\type\Vollkorn-Regular-webfont.svg" />
     <Content Include="Web.config" />
     <None Include="Shared\Form.spark" />
-    <None Include="Shared\Application.spark" />
+    <None Include="Shared\Application.spark">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Shared\Master.spark" />
     <None Include="Shared\Fluid.spark" />
     <None Include="Shared\Fixed.spark" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\Search\SearchAction.cs" />
     <Compile Include="Actions\Home\HomeAction.cs" />
     <Compile Include="Actions\Updates\UpdatesViewAction.cs" />
     <Compile Include="App_Start\FubuMVC.cs" />
