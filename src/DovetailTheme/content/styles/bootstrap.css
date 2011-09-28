@@ -2415,26 +2415,56 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
  * ---------------------------------------------------------------------------- */.topbar h3 a:hover, .topbar .brand a:hover, .topbar ul .active > a {
   background-color: none;
   background-color: #1d73ab;
+  padding-top: 7px;
+}
+.topbar a {
+  color: #2590d6;
+  text-shadow: none;
+  font-weight: bold;
 }
 .topbar-inner, .topbar .fill {
-  background-color: #2590d6;
-  background-color: #1d73ab;
+  background-color: #fff;
+  background-color: #d9d9d9;
   background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#2590d6), to(#1d73ab));
-  background-image: -moz-linear-gradient(top, #2590d6, #1d73ab);
-  background-image: -ms-linear-gradient(top, #2590d6, #1d73ab);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2590d6), color-stop(100%, #1d73ab));
-  background-image: -webkit-linear-gradient(top, #2590d6, #1d73ab);
-  background-image: -o-linear-gradient(top, #2590d6, #1d73ab);
-  background-image: linear-gradient(top, #2590d6, #1d73ab);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2590d6', endColorstr='#1d73ab', GradientType=0);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(white), to(#d9d9d9));
+  background-image: -moz-linear-gradient(top, white, #d9d9d9);
+  background-image: -ms-linear-gradient(top, white, #d9d9d9);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #d9d9d9));
+  background-image: -webkit-linear-gradient(top, white, #d9d9d9);
+  background-image: -o-linear-gradient(top, white, #d9d9d9);
+  background-image: linear-gradient(top, white, #d9d9d9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#d9d9d9', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 .topbar div > ul .active > a, .nav .active > a {
-  background-color: #1d73ab;
-  background-color: rgba(0, 0, 0, 0.3);
+  background: none;
+  border-top: 3px solid #2590d6;
+  color: #1d73ab;
+  padding-top: 7px;
+}
+.topbar div > ul a:hover, .nav a:hover {
+  color: #1d73ab;
+  border-top: 3px solid #dd4b39;
+  padding-top: 7px;
+}
+a.menu:after, .dropdown-toggle:after {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  content: "&darr;";
+  text-indent: -99999px;
+  vertical-align: top;
+  margin-top: 8px;
+  margin-left: 4px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #1d73ab;
+  filter: alpha(opacity=50);
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 .btn {
   -webkit-transition: 0s linear all;
@@ -2623,4 +2653,14 @@ body {
 }
 .topbar .btn {
   border: 0;
+}
+li#cog {
+  text-indent: 999px;
+}
+li#cog a {
+  background: url(/content/images/sweet-icons-settings-32.png) -238px -16px no-repeat;
+  width: 32px;
+}
+li#cog a:hover {
+  background-position: -238px -19px;
 }

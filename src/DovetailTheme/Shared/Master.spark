@@ -39,37 +39,8 @@
 	<use content="head"></use>
   </head>
   <body>
-  <div class="topbar">
-      <div class="fill">
-        <div class="container-fluid">
-          <a class="brand" href="#">Dovetail</a>
-          <ul class="nav">
-            <li class="active">${this.LinkTo(new DovetailTheme.Actions.Home.HomeRequest()).Text("Home")}</li>
-            <li><a href="#new">Create New</a></li>
-			<li><a href="#query">Query</a></li>
-            <li><a href="#reports">Reports</a></li>
-			<li>${this.LinkTo(new DovetailTheme.Actions.Search.SearchRequest()).Text("Search")}</li>
-          </ul>
-         
-		  <ul class="nav secondary-nav">
-			<li><a href=""><div id="notification">0</div></a></li>
-		    <li class="dropdown" data-dropdown="dropdown"><a href="#" class="dropdown-toggle">Cog</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Setup</a></li>
-					<li><a href="#">About</a></li>
-				</ul>
-			</li>
-			<li class="dropdown" data-dropdown="dropdown"><a href="#" class="dropdown-toggle">Ryan Rauh</a></li>
-				<ul class="dropdown-menu">
-					<li><a href="#">My Profile</a></li>
-					<li><a href="#">Logout</a></li>
-				</ul>
-			</li>
-		  </ul>
-        </div>
-      </div>
-    </div>
+	#this.Partial(new DovetailTheme.Actions.Menu.BuildMenu());
 
-     <use content="view"></use>
+    <use content="view"></use>
   </body>
 </html>

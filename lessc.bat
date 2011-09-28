@@ -1,1 +1,1 @@
-"./tools/dotless/dotless.Compiler.exe" -w ./dovetail.less ./%1
+"./tools/dotless/dotless.Compiler.exe" -w ./dovetail.less ./src/DovetailTheme/content/styles/bootstrap.css

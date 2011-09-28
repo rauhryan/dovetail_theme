@@ -1,0 +1,32 @@
+﻿<use master="Master" />
+
+<div class="container">
+
+  <div class="content">
+    <div class="page-header">
+      <h1>
+        Page name <small>Supporting text or tagline</small>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span10">
+        <h2>Main content</h2>
+        <use content="view"></use>
+      </div>
+      <div class="span4">
+        <h3>Secondary content</h3>
+        <use content="secondary"></use>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    
+    <p>
+      <span style="float:left;margin-left:10px;"> &copy; Dovetail Software Inc. 2011 - <em>Version: 1.0.2.3</em></span>
+      <span style="float:right;" class="label notice"><a href="#">debug info</a> </span>
+    </p>
+  </footer>
+
+</div>
+<!-- /container -->
