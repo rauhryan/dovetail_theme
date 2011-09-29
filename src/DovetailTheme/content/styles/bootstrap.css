@@ -2667,3 +2667,7 @@ li#cog a {
 li#cog a:hover {
   background-position: -238px -19px;
 }
+#debug-link {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
