@@ -1,8 +1,5 @@
+<use master="SingleColumn" />
 <viewdata model="DovetailTheme.Actions.Search.SearchResultModel" />
-
-<content:secondary>
-  I'm content that goes in the secondary
-</content:secondary>
 
 <form action="#">
   <div class="clearfix">

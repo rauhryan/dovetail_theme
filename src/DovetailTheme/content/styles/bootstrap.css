@@ -2578,7 +2578,7 @@ a.menu:after, .dropdown-toggle:after {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 #notification {
-  background: #dd4b39;
+  background: gray;
   padding: 2px;
   margin: -3px 0 0 0;
   -webkit-border-radius: 4px;
@@ -2588,6 +2588,9 @@ a.menu:after, .dropdown-toggle:after {
   text-align: center;
   color: white;
   font-weight: bold;
+}
+#notification.active {
+  background: #dd4b39;
 }
 #notification-window {
   border: 2px solid gray;

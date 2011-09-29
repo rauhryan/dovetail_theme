@@ -42,5 +42,8 @@
 	#this.Partial(new DovetailTheme.Actions.Menu.BuildMenu());
 
     <use content="view"></use>
+	<div class="container">
+	#this.Partial(new DovetailTheme.Actions.Footer.FooterRequest());
+	</div>
   </body>
 </html>

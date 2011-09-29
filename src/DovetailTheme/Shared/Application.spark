@@ -19,14 +19,5 @@
       </div>
     </div>
   </div>
-
-  <footer>
-    
-    <p>
-      <span style="float:left;margin-left:10px;"> &copy; Dovetail Software Inc. 2011 - <em>Version: 1.0.2.3</em></span>
-      <span style="float:right;" class="label notice"><a href="#">debug info</a> </span>
-    </p>
-  </footer>
-
 </div>
 <!-- /container -->
