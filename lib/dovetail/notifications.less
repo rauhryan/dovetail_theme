@@ -1,5 +1,5 @@
 #notification {
-    background: @red;
+    background:@gray;
     padding:2px;
     margin: -3px 0 0 0;
     .border-radius(4px);
@@ -7,6 +7,10 @@
     text-align:center;
     color:@white;
     font-weight:bold;
+}
+
+#notification.active {
+    background: @red;
 }
 
 #notification-window {

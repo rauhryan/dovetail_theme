@@ -21,7 +21,7 @@
       <ul class="nav secondary-nav">
         <li>
           <a href="#">
-            <div id="notification">0</div>
+            <div id="notification" class="active">0</div>
           </a>
         </li>
         <li id="cog" class="dropdown" data-dropdown="dropdown">
