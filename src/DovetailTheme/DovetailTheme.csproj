@@ -143,6 +143,7 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="content\favicon.ico" />
+    <Content Include="content\images\dt-logo-32.png" />
     <Content Include="content\images\dt-logo-60.png" />
     <Content Include="content\images\dt-logo-trans-35.png" />
     <Content Include="content\images\dt-logo-trans-40.png" />
