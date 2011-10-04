@@ -1,118 +1,75 @@
-      /* Override some defaults */
-      html, body {
-      }
-      body {
-        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
-      }
-      .container > footer p {
-        text-align: center; /* center align it with the container */
-      }
-	  /* I need to disable this for now
-      .container { width: 820px; }
-	  */
-      /* The white background content wrapper */
-      .content {
-        background-color: #fff;
-        padding: 20px;
-        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+/* Override some defaults */
+html, body {
+}
+body {
+    padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+}
+.container > footer p {
+    text-align: center; /* center align it with the container */
+}
+/* I need to disable this for now
+   .container { width: 820px; }
+ */
+/* The white background content wrapper */
+.content {
+    background-color: #fff;
+padding: 20px;
+margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
         -webkit-border-radius: 0 0 6px 6px;
-           -moz-border-radius: 0 0 6px 6px;
-                border-radius: 0 0 6px 6px;
+        -moz-border-radius: 0 0 6px 6px;
+        border-radius: 0 0 6px 6px;
         -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-                box-shadow: 0 1px 2px rgba(0,0,0,.15);
-      }
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+        box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
 
-      /* Page header tweaks */
-      .page-header {
-        background-color: #f5f5f5;
-        padding: 20px 20px 10px;
-        margin: -20px -20px 20px;
-      }
+/* Page header tweaks */
+.page-header {
+    background-color: #f5f5f5;
+padding: 20px 20px 10px;
+margin: -20px -20px 20px;
+}
 
-      /* Styles you shouldn't keep as they are for displaying this base example only */
-      .content .span10,
-      .content .span4 {
+/* Styles you shouldn't keep as they are for displaying this base example only */
+.content .span10,
+    .content .span4 {
         min-height: 500px;
-      }
-      /* Give a quick and non-cross-browser friendly divider */
-      .content .span4 {
-        margin-left: 0;
-        padding-left: 19px;
-        border-left: 1px solid #eee;
-      }
+    }
+/* Give a quick and non-cross-browser friendly divider */
+.content .span4 {
+    margin-left: 0;
+    padding-left: 19px;
+    border-left: 1px solid #eee;
+}
 
-      .topbar .btn {
+.topbar{ 
+    .btn {
         border: 0;
-      }
+    }        
+    .brand {
+        margin-right:10px;
+        background:~"url(../images/dt-logo-32.png) 4px 3px no-repeat";  
+        text-indent: -7777777px;
+        margin-left:-10px;
+    }
+}
+
 
 li#cog {
     text-indent:999px;
+    a {
+        background:url(/content/images/sweet-icons-settings-32.png) -238px -16px no-repeat;
+        width:32px;
+
+        &:hover {
+            background-position: -238px -19px;
+        }
+    }
 }
-li#cog a {
-    background:url(/content/images/sweet-icons-settings-32.png) -238px -16px no-repeat;
-    width:32px;
-}
-li#cog a:hover {
-    background-position: -238px -19px;
-}
+
 #debug-link {
     margin-right:5px;
     margin-bottom:5px;
-    
-}
-      }
-
-/* Smart autocomplete */
-
-ul.smart_autocomplete_container {
-    background: #FFF;
-    margin:10px 0;
-    border: 2px solid #64A9D2;
-}
-ul.smart_autocomplete_container li {
-    font-size: 0.9em;
-    border-top: 1px solid #BFBFBF;
-    border-bottom: 1px solid #BFBFBF;
-    cursor: pointer;
-    padding:10px;
-    list-style: none;
-}
-ul.smart_autocomplete_container li:nth-child(odd) 
-{
-    background:#EEE;
-}
-ul.smart_autocomplete_container li:first-child {
-    border-top: 0;
-}
-ul.smart_autocomplete_container li.smart_autocomplete_highlight{
-    background: #DDD;
-    
 }
 
-.autopicker {
 
-    position:relative;
-    .button-add, a.button-add, .button-add span  {
-        text-indent:-9999em;
-        background:none;
-        height:16px;
-        width:16px;
-        border:0;
-        position:absolute;
-        right:3px;
-        top:23px;
-        span {
-            background: ~"url(../images/add.png) left top no-repeat";
-            margin:0;                            
-            padding:0;
-        }
-    }
-    .autocomplete-wrapper {
-        img {
-            position: absolute;
-            top:44px;
-            right:30px;
-        }
-    }
-}

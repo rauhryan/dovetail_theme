@@ -2444,7 +2444,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   color: #1d73ab;
   padding-top: 7px;
 }
-.topbar div > ul a:hover, .nav a:hover {
+.topbar div > ul > li > a:hover, .nav > li > a:hover {
   color: #1d73ab;
   border-top: 3px solid #dd4b39;
   padding-top: 7px;
@@ -2465,6 +2465,137 @@ a.menu:after, .dropdown-toggle:after {
   -khtml-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
+}
+.topbar input {
+  background-color: #444;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: normal;
+  font-weight: 13px;
+  line-height: 1;
+  padding: 4px 9px;
+  color: white;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid #111;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.25);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.topbar input:-moz-placeholder {
+  color: #e6e6e6;
+}
+.topbar input::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+.topbar input:hover {
+  background-color: #bfbfbf;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.topbar input:focus, .topbar input.focused {
+  outline: 0;
+  background-color: white;
+  color: #404040;
+  text-shadow: 0 1px 0 white;
+  border: 0;
+  padding: 5px 10px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.topbar div > ul .menu-dropdown,
+.nav .menu-dropdown,
+.topbar div > ul .dropdown-menu,
+.nav .dropdown-menu {
+  background-color: #fff;
+  background-color: #ebebeb;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#d9d9d9), to(#ebebeb));
+  background-image: -moz-linear-gradient(top, #d9d9d9, #ebebeb);
+  background-image: -ms-linear-gradient(top, #d9d9d9, #ebebeb);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9d9d9), color-stop(100%, #ebebeb));
+  background-image: -webkit-linear-gradient(top, #d9d9d9, #ebebeb);
+  background-image: -o-linear-gradient(top, #d9d9d9, #ebebeb);
+  background-image: linear-gradient(top, #d9d9d9, #ebebeb);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9d9d9', endColorstr='#ebebeb', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+.topbar div > ul .menu-dropdown a.menu.open,
+.nav .menu-dropdown a.menu.open,
+.topbar div > ul .dropdown-menu a.menu.open,
+.nav .dropdown-menu a.menu.open,
+.topbar div > ul .menu-dropdown .dropdown-toggle.open,
+.nav .menu-dropdown .dropdown-toggle.open,
+.topbar div > ul .dropdown-menu .dropdown-toggle.open,
+.nav .dropdown-menu .dropdown-toggle.open {
+  background: #444;
+  background: rgba(255, 255, 255, 0.05);
+}
+.topbar div > ul .menu-dropdown li a,
+.nav .menu-dropdown li a,
+.topbar div > ul .dropdown-menu li a,
+.nav .dropdown-menu li a {
+  color: #2590d6;
+  text-shadow: none;
+  font-weight: bold;
+}
+.topbar div > ul .menu-dropdown li a:hover,
+.nav .menu-dropdown li a:hover,
+.topbar div > ul .dropdown-menu li a:hover,
+.nav .dropdown-menu li a:hover {
+  background: none;
+  background-color: #2590d6;
+  color: white;
+}
+.topbar div > ul .menu-dropdown .active a,
+.nav .menu-dropdown .active a,
+.topbar div > ul .dropdown-menu .active a,
+.nav .dropdown-menu .active a {
+  color: white;
+}
+.topbar div > ul .menu-dropdown .divider,
+.nav .menu-dropdown .divider,
+.topbar div > ul .dropdown-menu .divider,
+.nav .dropdown-menu .divider {
+  background-color: #222;
+  border-color: #444;
+}
+.topbar .dropdown-menu a, .dropdown-menu a {
+  color: gray;
+  text-shadow: 0 1px 0 white;
+}
+.topbar .dropdown-menu a:hover, .dropdown-menu a:hover {
+  background-color: #dddddd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#eeeeee), to(#dddddd));
+  background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -ms-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -o-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: linear-gradient(top, #eeeeee, #dddddd);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0);
+  color: #404040;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+}
+.open .menu,
+.dropdown.open .menu,
+.open .dropdown-toggle,
+.dropdown.open .dropdown-toggle {
+  color: #1d73ab;
 }
 .btn {
   -webkit-transition: 0s linear all;
@@ -2614,10 +2745,7 @@ footer {
 footer p {
   padding-bottom: 6px;
 }
-/* Override some defaults */html, body {
-  background-color: #eee;
-}
-body {
+/* Override some defaults */body {
   padding-top: 40px;
   /* 40px to make the container go all the way to the bottom of the topbar */
 }
@@ -2625,11 +2753,9 @@ body {
   text-align: center;
   /* center align it with the container */
 }
-.container {
-  width: 820px;
-  /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
-}
-/* The white background content wrapper */.content {
+/* I need to disable this for now
+   .container { width: 820px; }
+ *//* The white background content wrapper */.content {
   background-color: #fff;
   padding: 20px;
   margin: 0 -20px;
@@ -2657,6 +2783,12 @@ body {
 .topbar .btn {
   border: 0;
 }
+.topbar .brand {
+  margin-right: 10px;
+  background: url(../images/dt-logo-32.png) 4px 3px no-repeat;
+  text-indent: -7777777px;
+  margin-left: -10px;
+}
 li#cog {
   text-indent: 999px;
 }
@@ -2670,4 +2802,16 @@ li#cog a:hover {
 #debug-link {
   margin-right: 5px;
   margin-bottom: 5px;
+}
+.span-two-thirds input[type~=text], .span-two-thirds select, .span-two-thirds textarea {
+  width: 590px;
+}
+.span-two-thirds .autocomplete-wrapper input {
+  width: 545px;
+}
+.span-one-third input[type~=text], .span-one-third select, .span-one-third textarea {
+  width: 245px;
+}
+.span-one-third .autocomplete-wrapper input {
+  width: 200px;
 }
